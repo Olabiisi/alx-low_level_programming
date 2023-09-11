@@ -3,8 +3,8 @@
 /**
 * main - Entry point
 *
-* Description: This program prints all single digit numbers of base 10 starting from 0
-*              followed by a newline character.
+* Description: This program prints all single digit numbers of base 10
+*              starting from 0, followed by a newline character.
 *
 * Return: Always 0 (Success)
 */
