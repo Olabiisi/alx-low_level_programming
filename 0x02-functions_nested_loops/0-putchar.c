@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h" 
 
 /**
  * main - Entry point of the program
@@ -9,6 +9,15 @@
  */
 int main(void)
 {
-    printf("_putchar\n");
+    /* Call the _putchar function from the header file */
+    _putchar(_);
+    _putchar(p);
+    _putchar(u);
+    _putchar(t);
+    _putchar(c);
+    _putchar(h);
+    _putchar(a);
+    _putchar(r);
+    _putchar(n);
     return (0);
 }
