@@ -1,12 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/**
- * _isupper - checks if a character is uppercase
- * @c: The character to be checked
- *
- * Return: 1 if c is uppercase, 0 otherwise
- */
+/* Function prototype for _isupper */
 int _isupper(int c);
 
 #endif /* MAIN_H */
