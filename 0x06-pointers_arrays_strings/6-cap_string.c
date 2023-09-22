@@ -9,13 +9,15 @@
 int is_separator(char c)
 {
 char separators[] = " \t\n,;.!?\"(){}";
+int i;
 
-for (int i = 0; separators[i]; i++)
+for (i = 0; separators[i] != '\0'; i++)
 {
 if (c == separators[i])
-return (1);
+return 1;
 }
-return (0);
+
+return 0;
 }
 
 /**
