@@ -1,8 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/* Function prototypes */
-void print_chessboard(char (*a)[8]);
+#include <stddef.h>
+
 int _putchar(char c);
+
+/* Prototypes for your functions go here */
+
+void print_diagsums(int *a, int size);
 
 #endif /* MAIN_H */
