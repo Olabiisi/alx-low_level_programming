@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/* Function prototype for is_palindrome */
-int is_palindrome(char *s);
+/* Function prototype for wildcmp */
+int wildcmp(char *s1, char *s2);
 
 #endif /* MAIN_H */
